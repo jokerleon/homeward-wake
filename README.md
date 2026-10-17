@@ -1,4 +1,13 @@
-# 架空大明远洋 · Godot HD-2D
+# 归潮录 / The Homeward Wake
+
+**架空晚明气质的远洋航海 RPG · Godot HD-2D**
+
+当前 `main` 保存 2026-10-13 的可运行 Demo 基线，标签为 `demo-20261013-baseline`。新版设定与制作收敛在开发分支 `codex/homeward-wake-v1.1` 上推进。
+
+- [V1.1 世界、人物与第一章工作设定](docs/worldbuilding/HOMEWARD_WAKE_CORE_SETTING_V1_1.md)
+- [素材存储、同步与清理规则](docs/ASSET_STORAGE_AND_CLEANUP.md)
+
+Git 只同步代码、Godot 运行工程、文档和工具；约 5 GB 的原始生成素材与评审产物保留在本机，不随仓库上传。运行工程中的选用资源使用 Git LFS。
 
 最新：《归港的人》首版玩法已接通招募、改装、原海域交战／脱战、真实甲板布阵与自动即时战斗、成长和归港。场景与水体延续 v03，独立人物立绘、正式攻击动画和演出尚未完成。
 

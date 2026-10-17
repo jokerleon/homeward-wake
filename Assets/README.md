@@ -1,5 +1,18 @@
 # 当前素材
 
+2026-10-17：素材同步边界与清理规则已经单独整理，见
+[素材存储、同步与清理规则](../docs/ASSET_STORAGE_AND_CLEANUP.md)。
+
+`Assets/` 是原始素材库，不进入 Git。只把 `Godot/` 实际引用的运行副本纳入
+版本管理。生成素材清单使用：
+
+```powershell
+./tools/assets/inventory_assets.ps1 -Roots Assets,Artifacts
+```
+
+清单默认输出到 `Artifacts/asset-inventory/`。清理前先隔离，不直接删除已接受、
+已被否定、来源不明或仍被运行工程引用的素材。
+
 2026-10-08：仅保留 `Characters/` 中 MiniMax 人物制作与八方向流程相关的内容：
 原视频、输入图、透明帧、图集、源配方、任务/费用记录及离线预览。
 
