@@ -1,0 +1,608 @@
+{
+  "schema": "return-demo-motion-set/v1",
+  "character": "OldLiang",
+  "state": "explore",
+  "default_direction": "SE",
+  "canvas": [
+    192,
+    192
+  ],
+  "pivot_px": [
+    96.0,
+    162.0
+  ],
+  "pixel_size": 0.011021069692058346,
+  "directions": {
+    "SE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/old-liang/explore/SE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "gesture": {
+          "columns": 8,
+          "rows": 8,
+          "frames": 59,
+          "fps": 24,
+          "loop": false,
+          "duration": 2.4583333333333335,
+          "atlas": "res://assets/demo/characters/old-liang/explore/SE-gesture.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                192,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                384,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                576,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                768,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                960,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                1344,
+                0,
+                192,
+                192
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                192,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                384,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                576,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                768,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                960,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1152,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1344,
+                192,
+                192,
+                192
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                192,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                384,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                576,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                768,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                960,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1152,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1344,
+                384,
+                192,
+                192
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                0,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                192,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                384,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                576,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                768,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                960,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1344,
+                576,
+                192,
+                192
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                0,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                192,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                384,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                576,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                768,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                960,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                1152,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1344,
+                768,
+                192,
+                192
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                0,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                192,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                384,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                576,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                768,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                960,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                1152,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                1344,
+                960,
+                192,
+                192
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                0,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                192,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                384,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                576,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                768,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                960,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                1152,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                1344,
+                1152,
+                192,
+                192
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                192,
+                192
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                192,
+                1344,
+                192,
+                192
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                384,
+                1344,
+                192,
+                192
+              ],
+              "source_frame": 63
+            }
+          ]
+        }
+      }
+    }
+  },
+  "adoption": "internally reviewed demo candidate; user art acceptance not claimed",
+  "mirrors": {
+    "W": "E",
+    "SW": "SE",
+    "NW": "NE"
+  },
+  "mirror_note": "Mirroring reverses handedness. World root and all muzzle pixels mirror together.",
+  "sources": [
+    {
+      "direction": "SE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/OldLiang/explore-gesture-SE-v01/pack/motion.json",
+      "pack_sha256": "34d19678bb716cd68bf170d02f93b5dca0971ce6542d678034e1da9e6c0ee210",
+      "runtime_atlas_sha256": "39e2427b0674b34cbb9de316c82686a4a7ab79d2df4b0c55386ea501a8c1ec11",
+      "prompt_id": "614f3ca3-113a-4167-8a30-1d0be9cc589b"
+    },
+    {
+      "direction": "SE",
+      "clip": "gesture",
+      "pack": "Assets/Characters/Working/OldLiang/explore-gesture-SE-v01/pack/motion.json",
+      "pack_sha256": "34d19678bb716cd68bf170d02f93b5dca0971ce6542d678034e1da9e6c0ee210",
+      "runtime_atlas_sha256": "ea436c87ff950866ee1b742714ea607481a2f8d23c7355a57b7d0e002f316998",
+      "prompt_id": "614f3ca3-113a-4167-8a30-1d0be9cc589b"
+    }
+  ]
+}

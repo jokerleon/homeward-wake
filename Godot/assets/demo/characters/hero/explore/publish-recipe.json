@@ -1,0 +1,118 @@
+{
+  "character": "Shipmaster",
+  "key": "hero",
+  "state": "explore",
+  "canvas": [
+    288,
+    288
+  ],
+  "pivot_px": [
+    144,
+    208
+  ],
+  "pixel_size": 0.012253521126760564,
+  "runtime_scale": 1,
+  "directions": {
+    "E": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-E-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "S": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/pack/motion.json",
+        "clip": "idle",
+        "mouth_stability_recipe": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/mouth-stability-v01.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/pack/motion.json",
+        "clip": "move_start",
+        "mouth_stability_recipe": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/mouth-stability-v01.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/pack/motion.json",
+        "clip": "move_loop",
+        "mouth_stability_recipe": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/mouth-stability-v01.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/pack/motion.json",
+        "clip": "move_stop",
+        "mouth_stability_recipe": "Assets/Characters/Working/Shipmaster/explore-move-S-style-v03/mouth-stability-v01.json"
+      }
+    },
+    "SE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "NE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "N": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-N-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Shipmaster/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    }
+  },
+  "notes": [
+    "World style follows retained ShenYan with compact adult proportions; source identity remains character-specific.",
+    "Fixed root per video; no per-frame bounding box stabilization.",
+    "Start once, loop continuously, stop once; direction changes retain gait progress. Candidate art, not user acceptance.",
+    "2026-10-12: replace only S with forward/back alternating gait; other direction sources unchanged.",
+    "2026-10-12: walking accepted by user; all gait images and timing unchanged. A tracked closed-mouth renderer stabilizes only the small mouth detail."
+  ]
+}

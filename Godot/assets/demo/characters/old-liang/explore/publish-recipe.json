@@ -1,0 +1,28 @@
+{
+  "character": "OldLiang",
+  "key": "old-liang",
+  "state": "explore",
+  "default_direction": "SE",
+  "canvas": [
+    384,
+    384
+  ],
+  "pivot_px": [
+    192,
+    324
+  ],
+  "pixel_size": 0.005510534846029173,
+  "runtime_scale": 0.5,
+  "directions": {
+    "SE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/OldLiang/explore-gesture-SE-v01/pack/motion.json",
+        "clip": "idle"
+      },
+      "gesture": {
+        "pack": "Assets/Characters/Working/OldLiang/explore-gesture-SE-v01/pack/motion.json",
+        "clip": "gesture"
+      }
+    }
+  }
+}

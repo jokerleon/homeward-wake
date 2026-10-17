@@ -1,0 +1,98 @@
+{
+  "character": "Guard",
+  "key": "guard",
+  "state": "combat",
+  "canvas": [
+    640,
+    448
+  ],
+  "pivot_px": [
+    320,
+    384
+  ],
+  "pixel_size": 0.005678571428571429,
+  "runtime_scale": 0.5,
+  "default_direction": "E",
+  "directions": {
+    "E": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json"
+      },
+      "attack": {
+        "pack": "Assets/Characters/Working/Guard/combat-attack-E-style-v05/pack-runtime-v06/motion.json",
+        "release_source_frame": 16
+      },
+      "hit": {
+        "pack": "Assets/Characters/Working/Guard/combat-hit-E-style-v05/pack-runtime-v06/motion.json"
+      },
+      "down": {
+        "pack": "Assets/Characters/Working/Guard/combat-down-E-style-v05/pack-runtime-v06/motion.json"
+      }
+    },
+    "S": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json"
+      }
+    },
+    "SE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json"
+      }
+    },
+    "N": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json"
+      }
+    },
+    "NE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json"
+      }
+    }
+  }
+}

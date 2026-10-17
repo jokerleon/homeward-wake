@@ -1,0 +1,3135 @@
+{
+  "schema": "return-demo-motion-set/v1",
+  "character": "Atang",
+  "state": "explore",
+  "default_direction": "E",
+  "canvas": [
+    288,
+    288
+  ],
+  "pivot_px": [
+    144.0,
+    208.0
+  ],
+  "pixel_size": 0.012253521126760564,
+  "directions": {
+    "E": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/explore/E-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 16,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.6666666666666666,
+          "atlas": "res://assets/demo/characters/atang/explore/E-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 17
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 37,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.5416666666666667,
+          "atlas": "res://assets/demo/characters/atang/explore/E-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                0,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                288,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                576,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                864,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1152,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1440,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1728,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                2016,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                0,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                288,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                576,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                864,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                1152,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 54
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/atang/explore/E-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "S": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/explore/S-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 18,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.75,
+          "atlas": "res://assets/demo/characters/atang/explore/S-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 19
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 36,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.5,
+          "atlas": "res://assets/demo/characters/atang/explore/S-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                288,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                576,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                864,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1152,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1440,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1728,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2016,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                288,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                576,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                864,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 55
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 1,
+          "frames": 8,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.3333333333333333,
+          "atlas": "res://assets/demo/characters/atang/explore/S-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "SE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/explore/SE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 24,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.0,
+          "atlas": "res://assets/demo/characters/atang/explore/SE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 25
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 30,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.25,
+          "atlas": "res://assets/demo/characters/atang/explore/SE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                0,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                288,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                576,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                864,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                1152,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                1440,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 55
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 1,
+          "frames": 8,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.3333333333333333,
+          "atlas": "res://assets/demo/characters/atang/explore/SE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "NE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/explore/NE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 15,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.625,
+          "atlas": "res://assets/demo/characters/atang/explore/NE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 16
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 38,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.5833333333333333,
+          "atlas": "res://assets/demo/characters/atang/explore/NE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                0,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                288,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                576,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                864,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1152,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1440,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1728,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                2016,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                0,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                288,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                576,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                864,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                1152,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                1440,
+                1152,
+                288,
+                288
+              ],
+              "source_frame": 54
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 1,
+          "frames": 8,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.3333333333333333,
+          "atlas": "res://assets/demo/characters/atang/explore/NE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "N": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/explore/N-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/atang/explore/N-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 11
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 30,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.25,
+          "atlas": "res://assets/demo/characters/atang/explore/N-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                288,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                576,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                864,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1152,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1440,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1728,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2016,
+                288,
+                288,
+                288
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                288,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                576,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                864,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1152,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1440,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1728,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2016,
+                576,
+                288,
+                288
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                288,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                576,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                864,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1152,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1440,
+                864,
+                288,
+                288
+              ],
+              "source_frame": 41
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 1,
+          "frames": 8,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.3333333333333333,
+          "atlas": "res://assets/demo/characters/atang/explore/N-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                288,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                576,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                864,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1152,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1440,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1728,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2016,
+                0,
+                288,
+                288
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    }
+  },
+  "adoption": "internally reviewed demo candidate; user art acceptance not claimed",
+  "mirrors": {
+    "W": "E",
+    "SW": "SE",
+    "NW": "NE"
+  },
+  "mirror_note": "Mirroring reverses handedness. World root and all muzzle pixels mirror together.",
+  "sources": [
+    {
+      "direction": "E",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+      "pack_sha256": "11fa56475921561ea0509d25ffd0c48a357d5a82038df9e2ce059d48c815f9fe",
+      "runtime_atlas_sha256": "df4ce57007dd513550c4bba41f4d185e514249b62e565617ca50522dbc08e8a2",
+      "prompt_id": "502f9638-5aa5-42e2-8556-8521530ba8a2"
+    },
+    {
+      "direction": "E",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+      "pack_sha256": "11fa56475921561ea0509d25ffd0c48a357d5a82038df9e2ce059d48c815f9fe",
+      "runtime_atlas_sha256": "6bf3977ed67b08d7a9d081f49cd58f439fb72a4bc86b839e47cd3645b616308c",
+      "prompt_id": "502f9638-5aa5-42e2-8556-8521530ba8a2"
+    },
+    {
+      "direction": "E",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+      "pack_sha256": "11fa56475921561ea0509d25ffd0c48a357d5a82038df9e2ce059d48c815f9fe",
+      "runtime_atlas_sha256": "f0d8321b1e8fcc645c64c470102e4088eb752ea63221f61d8be281fbe420a250",
+      "prompt_id": "502f9638-5aa5-42e2-8556-8521530ba8a2"
+    },
+    {
+      "direction": "E",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+      "pack_sha256": "11fa56475921561ea0509d25ffd0c48a357d5a82038df9e2ce059d48c815f9fe",
+      "runtime_atlas_sha256": "00420d192fdf87448d9dfbeaaf04b9250b2362cc314a4e49ac577019dc4b48ee",
+      "prompt_id": "502f9638-5aa5-42e2-8556-8521530ba8a2"
+    },
+    {
+      "direction": "S",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+      "pack_sha256": "1b12b00210d645ef0ca9d6b4c384c34d81549070557a478f6e47e41cb5bfef69",
+      "runtime_atlas_sha256": "3ec41779b25786f046c0dfb6f2c61a6c3cd0844dee9d08c91c71d9e51a557612",
+      "prompt_id": "75a8489b-97b6-4b3d-b4d0-7bc0eeea3a4b"
+    },
+    {
+      "direction": "S",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+      "pack_sha256": "1b12b00210d645ef0ca9d6b4c384c34d81549070557a478f6e47e41cb5bfef69",
+      "runtime_atlas_sha256": "f83c3869c7d4d4e2ee043e93f9fa5e80d8a3be867c48d7fa188c4ee1919a00c6",
+      "prompt_id": "75a8489b-97b6-4b3d-b4d0-7bc0eeea3a4b"
+    },
+    {
+      "direction": "S",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+      "pack_sha256": "1b12b00210d645ef0ca9d6b4c384c34d81549070557a478f6e47e41cb5bfef69",
+      "runtime_atlas_sha256": "2f195b5166475cbdc1a2a0e77e7a5d62329ba245b7ad5e9b2db0345bc8f7f248",
+      "prompt_id": "75a8489b-97b6-4b3d-b4d0-7bc0eeea3a4b"
+    },
+    {
+      "direction": "S",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+      "pack_sha256": "1b12b00210d645ef0ca9d6b4c384c34d81549070557a478f6e47e41cb5bfef69",
+      "runtime_atlas_sha256": "1ed3ce0b9fa872d943be7e6030a45ea795561133fb78021f13d556ff65c1c562",
+      "prompt_id": "75a8489b-97b6-4b3d-b4d0-7bc0eeea3a4b"
+    },
+    {
+      "direction": "SE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+      "pack_sha256": "549592cabb3972dd218c8c05fe668ad252b2470fe6657686c6bbf5453b8fa6f7",
+      "runtime_atlas_sha256": "8940ded9fde8c16ef33943818b3b045c80ad0879e8503c02edc88a2d2be67ce9",
+      "prompt_id": "eb5dfd36-6174-49c5-8e4a-0ae00cd41010"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+      "pack_sha256": "549592cabb3972dd218c8c05fe668ad252b2470fe6657686c6bbf5453b8fa6f7",
+      "runtime_atlas_sha256": "c1ab4d4a670fe8757679daef46d0c108ed9434031950122814a42e7083f6bd28",
+      "prompt_id": "eb5dfd36-6174-49c5-8e4a-0ae00cd41010"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+      "pack_sha256": "549592cabb3972dd218c8c05fe668ad252b2470fe6657686c6bbf5453b8fa6f7",
+      "runtime_atlas_sha256": "44c44d6bc23b963ca8af0844bb819d1aecbab25cbf2dd426b4ffab214f3cce60",
+      "prompt_id": "eb5dfd36-6174-49c5-8e4a-0ae00cd41010"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+      "pack_sha256": "549592cabb3972dd218c8c05fe668ad252b2470fe6657686c6bbf5453b8fa6f7",
+      "runtime_atlas_sha256": "49ff6e374a7b7d0ee0daa4cf32bd3a6d1e0ec0ad5dc61e5349031ae98cbddb44",
+      "prompt_id": "eb5dfd36-6174-49c5-8e4a-0ae00cd41010"
+    },
+    {
+      "direction": "NE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+      "pack_sha256": "167b616a992dfcba1df8211ecc029d96a93a7e7589041f4f78223fe339147528",
+      "runtime_atlas_sha256": "9780bafbdaa4d70cb8012c558025ca51175607231b5552807de613489fc3ca6b",
+      "prompt_id": "0c7a50a4-af9a-4921-be0a-424eb66971c6"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+      "pack_sha256": "167b616a992dfcba1df8211ecc029d96a93a7e7589041f4f78223fe339147528",
+      "runtime_atlas_sha256": "f4ef5ca54a32267bab577bfe7ef8899baf54262130afa3d651cd2c4d47e3ca04",
+      "prompt_id": "0c7a50a4-af9a-4921-be0a-424eb66971c6"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+      "pack_sha256": "167b616a992dfcba1df8211ecc029d96a93a7e7589041f4f78223fe339147528",
+      "runtime_atlas_sha256": "506e0a5c2c4150235c389351fe8e553b782941241a82394de7606ef454e0a629",
+      "prompt_id": "0c7a50a4-af9a-4921-be0a-424eb66971c6"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+      "pack_sha256": "167b616a992dfcba1df8211ecc029d96a93a7e7589041f4f78223fe339147528",
+      "runtime_atlas_sha256": "2dbacca965c6f58d95af6a0c92a39c8817b84f7d72835d6d157c1b6bee2ac8c3",
+      "prompt_id": "0c7a50a4-af9a-4921-be0a-424eb66971c6"
+    },
+    {
+      "direction": "N",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+      "pack_sha256": "71f0223cc8961451c347704fc764a918f1a83fb4341020ee3aa1b330f3c2bf72",
+      "runtime_atlas_sha256": "68cbfdcc56fc940e329e99b0abcafd0432eee0b837a008075106957de4d5da07",
+      "prompt_id": "6cdf1a14-b5de-4ba0-82af-5ccc0afa3d26"
+    },
+    {
+      "direction": "N",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+      "pack_sha256": "71f0223cc8961451c347704fc764a918f1a83fb4341020ee3aa1b330f3c2bf72",
+      "runtime_atlas_sha256": "f452aa6bbf2edb3d6ed857c51364f449e1d23e1e9225aaee874056bc412b3c18",
+      "prompt_id": "6cdf1a14-b5de-4ba0-82af-5ccc0afa3d26"
+    },
+    {
+      "direction": "N",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+      "pack_sha256": "71f0223cc8961451c347704fc764a918f1a83fb4341020ee3aa1b330f3c2bf72",
+      "runtime_atlas_sha256": "233d34c697648c40d7299e50a602113dad03de9250910b77ca99e9d236144ca0",
+      "prompt_id": "6cdf1a14-b5de-4ba0-82af-5ccc0afa3d26"
+    },
+    {
+      "direction": "N",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+      "pack_sha256": "71f0223cc8961451c347704fc764a918f1a83fb4341020ee3aa1b330f3c2bf72",
+      "runtime_atlas_sha256": "8534128043972db5aa9f2e7368a90b746f399520f4d681f0fca65f7807479891",
+      "prompt_id": "6cdf1a14-b5de-4ba0-82af-5ccc0afa3d26"
+    }
+  ]
+}

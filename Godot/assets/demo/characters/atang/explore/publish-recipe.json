@@ -1,0 +1,112 @@
+{
+  "character": "Atang",
+  "key": "atang",
+  "state": "explore",
+  "canvas": [
+    288,
+    288
+  ],
+  "pivot_px": [
+    144,
+    208
+  ],
+  "pixel_size": 0.012253521126760564,
+  "runtime_scale": 1,
+  "directions": {
+    "E": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-E-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "S": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-S-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "SE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-SE-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "NE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-NE-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    },
+    "N": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+        "clip": "idle"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_start"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_loop"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/explore-move-N-style-v02/pack/motion.json",
+        "clip": "move_stop"
+      }
+    }
+  },
+  "notes": [
+    "World style follows retained ShenYan with compact adult proportions; source identity remains character-specific.",
+    "Fixed root per video; no per-frame bounding box stabilization.",
+    "Start once, loop continuously, stop once; direction changes retain gait progress. Candidate art, not user acceptance."
+  ]
+}

@@ -1,0 +1,3617 @@
+{
+  "schema": "return-demo-motion-set/v1",
+  "character": "Shipmaster",
+  "state": "combat",
+  "default_direction": "E",
+  "canvas": [
+    320,
+    224
+  ],
+  "pivot_px": [
+    160.0,
+    192.0
+  ],
+  "pixel_size": 0.011357142857142857,
+  "directions": {
+    "E": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/hero/combat/E-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 19,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.7916666666666666,
+          "atlas": "res://assets/demo/characters/hero/combat/E-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 29,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.2083333333333333,
+          "atlas": "res://assets/demo/characters/hero/combat/E-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 52
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/E-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "attack": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 23,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.9583333333333334,
+          "atlas": "res://assets/demo/characters/hero/combat/E-attack.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            }
+          ],
+          "release_time": 0.5416666666666666,
+          "release_frame": 13
+        },
+        "hit": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 9,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.375,
+          "atlas": "res://assets/demo/characters/hero/combat/E-hit.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            }
+          ]
+        },
+        "down": {
+          "columns": 8,
+          "rows": 6,
+          "frames": 43,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.7916666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/E-down.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            }
+          ]
+        }
+      }
+    },
+    "S": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/hero/combat/S-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 15,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.625,
+          "atlas": "res://assets/demo/characters/hero/combat/S-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 35,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.4583333333333333,
+          "atlas": "res://assets/demo/characters/hero/combat/S-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 54
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 7,
+          "rows": 1,
+          "frames": 7,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.2916666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/S-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "SE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/hero/combat/SE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 7,
+          "rows": 1,
+          "frames": 7,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.2916666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/SE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 22,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.9166666666666666,
+          "atlas": "res://assets/demo/characters/hero/combat/SE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 12,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5,
+          "atlas": "res://assets/demo/characters/hero/combat/SE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "NE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/hero/combat/NE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 12,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5,
+          "atlas": "res://assets/demo/characters/hero/combat/NE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 32,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.3333333333333333,
+          "atlas": "res://assets/demo/characters/hero/combat/NE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 12,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5,
+          "atlas": "res://assets/demo/characters/hero/combat/NE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "N": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/hero/combat/N-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 12,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5,
+          "atlas": "res://assets/demo/characters/hero/combat/N-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 34,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.4166666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/N-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 50
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/hero/combat/N-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    }
+  },
+  "adoption": "internally reviewed demo candidate; user art acceptance not claimed",
+  "mirrors": {
+    "W": "E",
+    "SW": "SE",
+    "NW": "NE"
+  },
+  "mirror_note": "Mirroring reverses handedness. World root and all muzzle pixels mirror together.",
+  "sources": [
+    {
+      "direction": "E",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "6156e3d80b0c04f9441954d27a5cc2a9c80497213c4636f33e0ddc07a32e312c",
+      "runtime_atlas_sha256": "d0ff68d23cd3928d61c77ecb7c21abbd04af9d41453c94b94e802ca7cc7a386f",
+      "prompt_id": "15d6dc47-1a81-4758-bb6b-a48cd92c66be"
+    },
+    {
+      "direction": "E",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "6156e3d80b0c04f9441954d27a5cc2a9c80497213c4636f33e0ddc07a32e312c",
+      "runtime_atlas_sha256": "63601d56782b6030a6c26f4497b9209182b539bbe5048682160d4210cb50503b",
+      "prompt_id": "15d6dc47-1a81-4758-bb6b-a48cd92c66be"
+    },
+    {
+      "direction": "E",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "6156e3d80b0c04f9441954d27a5cc2a9c80497213c4636f33e0ddc07a32e312c",
+      "runtime_atlas_sha256": "fb8694f45edfb307eab07a2820e61e11e0e560d69d0de509f570fd9d1a42882b",
+      "prompt_id": "15d6dc47-1a81-4758-bb6b-a48cd92c66be"
+    },
+    {
+      "direction": "E",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "6156e3d80b0c04f9441954d27a5cc2a9c80497213c4636f33e0ddc07a32e312c",
+      "runtime_atlas_sha256": "12d2e9b9d19178c74112aea44feb3d382584d34b065253f7fa61f2b434dc355a",
+      "prompt_id": "15d6dc47-1a81-4758-bb6b-a48cd92c66be"
+    },
+    {
+      "direction": "E",
+      "clip": "attack",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-attack-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "50e073f56a26d30d4fae3ad93945460e27009227f11a3c6b8f63464b4cf1287c",
+      "runtime_atlas_sha256": "c8280000490406d1ef828f01de5f8c266dc9b191a0d6a48da2a163f27fa8429c",
+      "prompt_id": "19fbe082-26a3-4269-8b13-394c8650f72f"
+    },
+    {
+      "direction": "E",
+      "clip": "hit",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-hit-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "ab26edadda8b3ae8fa5ae1555d8bb8cbbd2b38c12e3ff4b9718a144521bb1f4c",
+      "runtime_atlas_sha256": "3b030c59adb0eb22b5fdf8a6ad780e5dff7a90003f16d376945865867fa03ba7",
+      "prompt_id": "b0e9366d-5097-4f10-9dc0-f00efedd486a"
+    },
+    {
+      "direction": "E",
+      "clip": "down",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-down-E-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "c00b53afcdc586bf1bf2f2cee4fa9e817038ecae565e6b194258ebb0428348c6",
+      "runtime_atlas_sha256": "ebae410a2852af89c37a0b3eed1926076afa4ad1e2ece0a4e547f890b374b9fe",
+      "prompt_id": "1e676ed8-a2bc-4f4d-b52b-835dcbf50272"
+    },
+    {
+      "direction": "S",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "e77782355a9506134731c9209c3d5c1913cc8ffce0e8973ed090e34ac4d36b15",
+      "runtime_atlas_sha256": "eaa1df307d332e13cc439f28ad81e9640303f860739a7e2a31be977ae6b9a658",
+      "prompt_id": "6e5709d3-d155-4083-930f-8461a9699e50"
+    },
+    {
+      "direction": "S",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "e77782355a9506134731c9209c3d5c1913cc8ffce0e8973ed090e34ac4d36b15",
+      "runtime_atlas_sha256": "9fdb6a7f75719bbfbb68d2b72562f33201a5870f8dc07dca19d44ef4660a1569",
+      "prompt_id": "6e5709d3-d155-4083-930f-8461a9699e50"
+    },
+    {
+      "direction": "S",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "e77782355a9506134731c9209c3d5c1913cc8ffce0e8973ed090e34ac4d36b15",
+      "runtime_atlas_sha256": "804452d0768c517b760004f3c37cbf2f67f66305b3c9bba34d0bce3d678f155c",
+      "prompt_id": "6e5709d3-d155-4083-930f-8461a9699e50"
+    },
+    {
+      "direction": "S",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "e77782355a9506134731c9209c3d5c1913cc8ffce0e8973ed090e34ac4d36b15",
+      "runtime_atlas_sha256": "e798cad24646e8aeecb63da122918a87d26ad64bc9a9630efc3a8c8b9a1b379c",
+      "prompt_id": "6e5709d3-d155-4083-930f-8461a9699e50"
+    },
+    {
+      "direction": "SE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "0d3f03814f362b57c6364bc6443428f83f37a48f732bcc8aca41e4b98bed488a",
+      "runtime_atlas_sha256": "4861de9943a4f84eb224853804302c109e6ef7b5bcf73b32285494e804bb09ed",
+      "prompt_id": "393e3f04-5eec-4cf0-8bcc-883181ebe039"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "0d3f03814f362b57c6364bc6443428f83f37a48f732bcc8aca41e4b98bed488a",
+      "runtime_atlas_sha256": "dcc67116cf96bc675c2fed0cf66ef81a8bccf3864036e2cbca1f72e4223ae85f",
+      "prompt_id": "393e3f04-5eec-4cf0-8bcc-883181ebe039"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "0d3f03814f362b57c6364bc6443428f83f37a48f732bcc8aca41e4b98bed488a",
+      "runtime_atlas_sha256": "83248f775e38256722ee87f814288eae0994c95f1bf7437f4f76fb0559f08892",
+      "prompt_id": "393e3f04-5eec-4cf0-8bcc-883181ebe039"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "0d3f03814f362b57c6364bc6443428f83f37a48f732bcc8aca41e4b98bed488a",
+      "runtime_atlas_sha256": "e014b72c375822346e03d6a2614684e8a73b5530fb02631b872c984591ca157e",
+      "prompt_id": "393e3f04-5eec-4cf0-8bcc-883181ebe039"
+    },
+    {
+      "direction": "NE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "74ad5f2efad430518c76cb9a7cba105fbc298e6b5e51292662dcd5ea5f3d4f87",
+      "runtime_atlas_sha256": "ca1554e154b3b4f27f085998268982672e3c1c63356bc939dda56f310375eddb",
+      "prompt_id": "bd04636f-5fdf-4f78-a8e6-71233b56b2cb"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "74ad5f2efad430518c76cb9a7cba105fbc298e6b5e51292662dcd5ea5f3d4f87",
+      "runtime_atlas_sha256": "faeffc155ab8834c04cda0e1e635a7b17f79ce3e77b3c07559d447faf95d1239",
+      "prompt_id": "bd04636f-5fdf-4f78-a8e6-71233b56b2cb"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "74ad5f2efad430518c76cb9a7cba105fbc298e6b5e51292662dcd5ea5f3d4f87",
+      "runtime_atlas_sha256": "261f31bd0d54db1627d34772168dd4e7e3d38fd81b9dc19bdb988c13320b405a",
+      "prompt_id": "bd04636f-5fdf-4f78-a8e6-71233b56b2cb"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "74ad5f2efad430518c76cb9a7cba105fbc298e6b5e51292662dcd5ea5f3d4f87",
+      "runtime_atlas_sha256": "ece8b0b292c7a65857674f7d8c5f91bce4c7ca5834d2e7e979efb0f1750f2519",
+      "prompt_id": "bd04636f-5fdf-4f78-a8e6-71233b56b2cb"
+    },
+    {
+      "direction": "N",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "ed6b366672d711bd1a361ae1d90c248dfa1c03a53070fb6a6d7b0015aeeca896",
+      "runtime_atlas_sha256": "1cf2b753edc2666d63212ccaf3451021bf943bdbfec3b5d23547417ea83908a3",
+      "prompt_id": "e88dbaeb-85e8-4d94-9c40-be55703036d5"
+    },
+    {
+      "direction": "N",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "ed6b366672d711bd1a361ae1d90c248dfa1c03a53070fb6a6d7b0015aeeca896",
+      "runtime_atlas_sha256": "de681be9809d2a5e3129288013ff84a06b15b54367fa28a513e2f1a21119100f",
+      "prompt_id": "e88dbaeb-85e8-4d94-9c40-be55703036d5"
+    },
+    {
+      "direction": "N",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "ed6b366672d711bd1a361ae1d90c248dfa1c03a53070fb6a6d7b0015aeeca896",
+      "runtime_atlas_sha256": "758c036e51134ab6f7b72515e76ea35074a5166faaa5c2964429f783b3aa22d6",
+      "prompt_id": "e88dbaeb-85e8-4d94-9c40-be55703036d5"
+    },
+    {
+      "direction": "N",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Shipmaster/combat-move-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "ed6b366672d711bd1a361ae1d90c248dfa1c03a53070fb6a6d7b0015aeeca896",
+      "runtime_atlas_sha256": "78035dc9e8223af2fe669180939de1e95445c4469b701fa7a21c6e7ca86d4471",
+      "prompt_id": "e88dbaeb-85e8-4d94-9c40-be55703036d5"
+    }
+  ]
+}

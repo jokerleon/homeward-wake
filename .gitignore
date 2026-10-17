@@ -1,0 +1,31 @@
+/.checks/
+/Builds/
+/Local/
+/.vs/
+# Godot visual trial: keep generated engine caches and export credentials local.
+/Godot/.godot/
+/Godot/export_credentials.cfg
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.blend1
+__pycache__/
+
+# Local API credentials. Keep this file out of Git.
+docs/apikeys.txt
+
+# Large local source-media library and review artifacts. Keep the accepted,
+# rejected and provenance-preserving originals on the workstation; Git tracks
+# the runtime project and production tooling, not the multi-gigabyte raw set.
+/Assets/*
+!/Assets/README.md
+/Artifacts/
+/.codex/
+
+# Records can contain provider identifiers or credential-like values.
+/docs/character-records/
+
+# One-off review videos and unrelated local experiments.
+/docs/quay-tour.mp4
+/pelican.html

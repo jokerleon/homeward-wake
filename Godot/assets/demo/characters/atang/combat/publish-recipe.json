@@ -1,0 +1,154 @@
+{
+  "character": "Atang",
+  "key": "atang",
+  "state": "combat",
+  "canvas": [
+    640,
+    448
+  ],
+  "pivot_px": [
+    320,
+    384
+  ],
+  "pixel_size": 0.005678571428571429,
+  "runtime_scale": 0.5,
+  "default_direction": "E",
+  "directions": {
+    "E": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "shoot": {
+        "pack": "Assets/Characters/Working/Atang/combat-shoot-E-style-v04/pack-runtime-v05/motion.json",
+        "release_source_frame": 18,
+        "muzzle_px": [
+          472.25,
+          168.5
+        ]
+      },
+      "reload": {
+        "pack": "Assets/Characters/Working/Atang/combat-reload-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "hit": {
+        "pack": "Assets/Characters/Working/Atang/combat-hit-down-E-style-v04/pack-runtime-v05/motion.json"
+      },
+      "down": {
+        "pack": "Assets/Characters/Working/Atang/combat-hit-down-E-style-v04/pack-runtime-v05/motion.json"
+      }
+    },
+    "S": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json"
+      },
+      "shoot": {
+        "pack": "Assets/Characters/Working/Atang/combat-shoot-S-style-v04/pack-runtime-v05/motion.json",
+        "release_source_frame": 18,
+        "muzzle_px": [
+          322.25,
+          180.5
+        ]
+      },
+      "reload": {
+        "pack": "Assets/Characters/Working/Atang/combat-reload-S-style-v04/pack-runtime-v05/motion.json"
+      }
+    },
+    "SE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "shoot": {
+        "pack": "Assets/Characters/Working/Atang/combat-shoot-SE-style-v04/pack-runtime-v05/motion.json",
+        "release_source_frame": 17,
+        "muzzle_px": [
+          451.0,
+          175.0
+        ]
+      },
+      "reload": {
+        "pack": "Assets/Characters/Working/Atang/combat-reload-SE-style-v04/pack-runtime-v05/motion.json"
+      }
+    },
+    "NE": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json"
+      },
+      "shoot": {
+        "pack": "Assets/Characters/Working/Atang/combat-shoot-NE-style-v04/pack-runtime-v05/motion.json",
+        "release_source_frame": 14,
+        "muzzle_px": [
+          408.25,
+          154.5
+        ]
+      },
+      "reload": {
+        "pack": "Assets/Characters/Working/Atang/combat-reload-NE-style-v04/pack-runtime-v05/motion.json"
+      }
+    },
+    "N": {
+      "idle": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json"
+      },
+      "move_start": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json"
+      },
+      "move_loop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json"
+      },
+      "move_stop": {
+        "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json"
+      },
+      "shoot": {
+        "pack": "Assets/Characters/Working/Atang/combat-shoot-N-style-v04/pack-runtime-v05/motion.json",
+        "release_source_frame": 18,
+        "muzzle_px": [
+          310.0,
+          160.5
+        ]
+      },
+      "reload": {
+        "pack": "Assets/Characters/Working/Atang/combat-reload-N-style-v04/pack-runtime-v05/motion.json"
+      }
+    }
+  },
+  "notes": [
+    "Current retained character identity; internally reviewed v03-compatible combat candidate, no user art acceptance inferred.",
+    "Eight-view movement; Atang has eight-view aiming/release/reload, actual bolt is generated by Godot.",
+    "Right-source mirrored-left melee/reaction clips; fixed ground pivots and original source provenance retained."
+  ]
+}

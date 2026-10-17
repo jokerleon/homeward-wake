@@ -1,0 +1,8390 @@
+{
+  "schema": "return-demo-motion-set/v1",
+  "character": "Atang",
+  "state": "combat",
+  "default_direction": "E",
+  "canvas": [
+    320,
+    224
+  ],
+  "pivot_px": [
+    160.0,
+    192.0
+  ],
+  "pixel_size": 0.011357142857142857,
+  "directions": {
+    "E": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/combat/E-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 13,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5416666666666666,
+          "atlas": "res://assets/demo/characters/atang/combat/E-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 30,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.25,
+          "atlas": "res://assets/demo/characters/atang/combat/E-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 14,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5833333333333334,
+          "atlas": "res://assets/demo/characters/atang/combat/E-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "shoot": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 27,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.125,
+          "atlas": "res://assets/demo/characters/atang/combat/E-shoot.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            }
+          ],
+          "release_time": 0.5833333333333334,
+          "release_frame": 14,
+          "muzzle_px": [
+            236.125,
+            84.25
+          ]
+        },
+        "reload": {
+          "columns": 8,
+          "rows": 10,
+          "frames": 73,
+          "fps": 24,
+          "loop": false,
+          "duration": 3.0416666666666665,
+          "atlas": "res://assets/demo/characters/atang/combat/E-reload.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                960,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1280,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                1600,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                1920,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                2240,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                0,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                1600,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 73
+            },
+            {
+              "frame": [
+                1920,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 74
+            },
+            {
+              "frame": [
+                2240,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 75
+            },
+            {
+              "frame": [
+                0,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 76
+            }
+          ]
+        },
+        "hit": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/atang/combat/E-hit.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            }
+          ]
+        },
+        "down": {
+          "columns": 8,
+          "rows": 6,
+          "frames": 43,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.7916666666666667,
+          "atlas": "res://assets/demo/characters/atang/combat/E-down.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 73
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 74
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 75
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 76
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 77
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 78
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 79
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 80
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 81
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 82
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 83
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 84
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 85
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 86
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 87
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 88
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 89
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 90
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 91
+            }
+          ]
+        }
+      }
+    },
+    "S": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/combat/S-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 18,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.75,
+          "atlas": "res://assets/demo/characters/atang/combat/S-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 28,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.1666666666666667,
+          "atlas": "res://assets/demo/characters/atang/combat/S-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 13,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5416666666666666,
+          "atlas": "res://assets/demo/characters/atang/combat/S-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "shoot": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 35,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.4583333333333333,
+          "atlas": "res://assets/demo/characters/atang/combat/S-shoot.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            }
+          ],
+          "release_time": 0.5833333333333334,
+          "release_frame": 14,
+          "muzzle_px": [
+            161.125,
+            90.25
+          ]
+        },
+        "reload": {
+          "columns": 8,
+          "rows": 9,
+          "frames": 70,
+          "fps": 24,
+          "loop": false,
+          "duration": 2.9166666666666665,
+          "atlas": "res://assets/demo/characters/atang/combat/S-reload.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                960,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1280,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                1600,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                1920,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                2240,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                0,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                1600,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 73
+            }
+          ]
+        }
+      }
+    },
+    "SE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/combat/SE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 9,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.375,
+          "atlas": "res://assets/demo/characters/atang/combat/SE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 23,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.9583333333333334,
+          "atlas": "res://assets/demo/characters/atang/combat/SE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 17,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.7083333333333334,
+          "atlas": "res://assets/demo/characters/atang/combat/SE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "shoot": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 29,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.2083333333333333,
+          "review_note": "Attached-arrow held-aim frames15-16 excluded. Detached arrow17-18 removed across empty x643 gutter; original video and all frames retained.",
+          "atlas": "res://assets/demo/characters/atang/combat/SE-shoot.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            }
+          ],
+          "release_time": 0.4583333333333333,
+          "release_frame": 11,
+          "muzzle_px": [
+            225.5,
+            87.5
+          ]
+        },
+        "reload": {
+          "columns": 8,
+          "rows": 10,
+          "frames": 78,
+          "fps": 24,
+          "loop": false,
+          "duration": 3.25,
+          "atlas": "res://assets/demo/characters/atang/combat/SE-reload.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                960,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1280,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                1600,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                1920,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                2240,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                0,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                1600,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 73
+            },
+            {
+              "frame": [
+                1920,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 74
+            },
+            {
+              "frame": [
+                2240,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 75
+            },
+            {
+              "frame": [
+                0,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 76
+            },
+            {
+              "frame": [
+                320,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 77
+            },
+            {
+              "frame": [
+                640,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 78
+            },
+            {
+              "frame": [
+                960,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 79
+            },
+            {
+              "frame": [
+                1280,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 80
+            },
+            {
+              "frame": [
+                1600,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 81
+            }
+          ]
+        }
+      }
+    },
+    "NE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/combat/NE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 11,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4583333333333333,
+          "atlas": "res://assets/demo/characters/atang/combat/NE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 31,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.2916666666666667,
+          "atlas": "res://assets/demo/characters/atang/combat/NE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 13,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5416666666666666,
+          "atlas": "res://assets/demo/characters/atang/combat/NE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "shoot": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 30,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.25,
+          "review_note": "Attached flash frame13 excluded; detached light14-16 separated across empty borders. Source originals preserved.",
+          "atlas": "res://assets/demo/characters/atang/combat/NE-shoot.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            }
+          ],
+          "release_time": 0.375,
+          "release_frame": 9,
+          "muzzle_px": [
+            204.125,
+            77.25
+          ]
+        },
+        "reload": {
+          "columns": 8,
+          "rows": 10,
+          "frames": 78,
+          "fps": 24,
+          "loop": false,
+          "duration": 3.25,
+          "atlas": "res://assets/demo/characters/atang/combat/NE-reload.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                960,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1280,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                1600,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                1920,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                2240,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                0,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                1600,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 73
+            },
+            {
+              "frame": [
+                1920,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 74
+            },
+            {
+              "frame": [
+                2240,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 75
+            },
+            {
+              "frame": [
+                0,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 76
+            },
+            {
+              "frame": [
+                320,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 77
+            },
+            {
+              "frame": [
+                640,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 78
+            },
+            {
+              "frame": [
+                960,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 79
+            },
+            {
+              "frame": [
+                1280,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 80
+            },
+            {
+              "frame": [
+                1600,
+                2016,
+                320,
+                224
+              ],
+              "source_frame": 81
+            }
+          ]
+        }
+      }
+    },
+    "N": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/atang/combat/N-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 12,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5,
+          "atlas": "res://assets/demo/characters/atang/combat/N-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 33,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.375,
+          "atlas": "res://assets/demo/characters/atang/combat/N-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 49
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 1,
+          "frames": 8,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.3333333333333333,
+          "atlas": "res://assets/demo/characters/atang/combat/N-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "shoot": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 35,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.4583333333333333,
+          "atlas": "res://assets/demo/characters/atang/combat/N-shoot.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            }
+          ],
+          "release_time": 0.5833333333333334,
+          "release_frame": 14,
+          "muzzle_px": [
+            155.0,
+            80.25
+          ]
+        },
+        "reload": {
+          "columns": 8,
+          "rows": 9,
+          "frames": 70,
+          "fps": 24,
+          "loop": false,
+          "duration": 2.9166666666666665,
+          "atlas": "res://assets/demo/characters/atang/combat/N-reload.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                2240,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                0,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                320,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                640,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                960,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1280,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 56
+            },
+            {
+              "frame": [
+                1600,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 57
+            },
+            {
+              "frame": [
+                1920,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 58
+            },
+            {
+              "frame": [
+                2240,
+                1344,
+                320,
+                224
+              ],
+              "source_frame": 59
+            },
+            {
+              "frame": [
+                0,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                1568,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 72
+            },
+            {
+              "frame": [
+                1600,
+                1792,
+                320,
+                224
+              ],
+              "source_frame": 73
+            }
+          ]
+        }
+      }
+    }
+  },
+  "adoption": "internally reviewed demo candidate; user art acceptance not claimed",
+  "mirrors": {
+    "W": "E",
+    "SW": "SE",
+    "NW": "NE"
+  },
+  "mirror_note": "Mirroring reverses handedness. World root and all muzzle pixels mirror together.",
+  "sources": [
+    {
+      "direction": "E",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "7fe81e2a17bdceda898a9138a0bb5eff178dc7969466a0a076e4b21f6bbe6de8",
+      "runtime_atlas_sha256": "f9cf516b01dbc4b6adc298a6a022e05478bce381513188d90c2483dea560b02a",
+      "prompt_id": "ddb27b74-ae2b-445a-999a-bc59c5ae16e8"
+    },
+    {
+      "direction": "E",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "7fe81e2a17bdceda898a9138a0bb5eff178dc7969466a0a076e4b21f6bbe6de8",
+      "runtime_atlas_sha256": "bae947df5d41607f0bc3f2c7e33af629fafd89a55f87a31ea2a6249bd213e4ea",
+      "prompt_id": "ddb27b74-ae2b-445a-999a-bc59c5ae16e8"
+    },
+    {
+      "direction": "E",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "7fe81e2a17bdceda898a9138a0bb5eff178dc7969466a0a076e4b21f6bbe6de8",
+      "runtime_atlas_sha256": "9512b0ee9437486daf40c334374c6b2db98fda2493aed99f6e1e046c1a8d5809",
+      "prompt_id": "ddb27b74-ae2b-445a-999a-bc59c5ae16e8"
+    },
+    {
+      "direction": "E",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "7fe81e2a17bdceda898a9138a0bb5eff178dc7969466a0a076e4b21f6bbe6de8",
+      "runtime_atlas_sha256": "0e2360e9ce55b761007e89f628662c035fb9cfabe6a3f41a4629c8f45fbd9fef",
+      "prompt_id": "ddb27b74-ae2b-445a-999a-bc59c5ae16e8"
+    },
+    {
+      "direction": "E",
+      "clip": "shoot",
+      "pack": "Assets/Characters/Working/Atang/combat-shoot-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "a723274f6806400cc19f41a1001dfbfb61a9682fb561316eb9a687b734dd4703",
+      "runtime_atlas_sha256": "f17da72de09b0a157250f05444284a8acd75790991ce40c2ba1c9ab8a4afe85a",
+      "prompt_id": "606e988c-d64d-416c-aca7-b21eaf432c4b"
+    },
+    {
+      "direction": "E",
+      "clip": "reload",
+      "pack": "Assets/Characters/Working/Atang/combat-reload-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "22356181ccfaac68973e2f5efb1be614819c46cfdcbb4337c1cfe99cbce98a67",
+      "runtime_atlas_sha256": "0d76225ec4b55fc836c0f009da33cb0ba62927932a4561747a9020f968445c21",
+      "prompt_id": "7873fe1a-11ec-4439-9bed-02cbd5bc0e6a"
+    },
+    {
+      "direction": "E",
+      "clip": "hit",
+      "pack": "Assets/Characters/Working/Atang/combat-hit-down-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "8f6f061883d423f709d6d16eab6ca82404469ca53c69b2d0d2ea9486ec382655",
+      "runtime_atlas_sha256": "b080589720791528e22eb2afc4d01f0485011e5bfdd7bfc7479a3dda35cebfe8",
+      "prompt_id": "be274795-7d35-4b9d-8976-909cc478c820"
+    },
+    {
+      "direction": "E",
+      "clip": "down",
+      "pack": "Assets/Characters/Working/Atang/combat-hit-down-E-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "8f6f061883d423f709d6d16eab6ca82404469ca53c69b2d0d2ea9486ec382655",
+      "runtime_atlas_sha256": "fe6d34ef9fe74c2da24223d7eba180896ec3d890b55779f2777abe79bef3fac9",
+      "prompt_id": "be274795-7d35-4b9d-8976-909cc478c820"
+    },
+    {
+      "direction": "S",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "1b2bd59cbdcc6f793c62643412283642cc645fc0674e7cccd6e2ca700ce24266",
+      "runtime_atlas_sha256": "77e4c1eeff4e7cfb909dec991117b5e967fb26791492abddcda08e35d6d258a0",
+      "prompt_id": "58f76e05-4e9c-4923-8f66-f176604ef8ba"
+    },
+    {
+      "direction": "S",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "1b2bd59cbdcc6f793c62643412283642cc645fc0674e7cccd6e2ca700ce24266",
+      "runtime_atlas_sha256": "10df6071c32f125300442f9fac375e62248f56cfd3ff5ff74cd62aa5e993c7a6",
+      "prompt_id": "58f76e05-4e9c-4923-8f66-f176604ef8ba"
+    },
+    {
+      "direction": "S",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "1b2bd59cbdcc6f793c62643412283642cc645fc0674e7cccd6e2ca700ce24266",
+      "runtime_atlas_sha256": "e7279207b65705f54c89fba6f9ad99fa0442f2542b72105f5b9d5ccc86fb5f15",
+      "prompt_id": "58f76e05-4e9c-4923-8f66-f176604ef8ba"
+    },
+    {
+      "direction": "S",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "1b2bd59cbdcc6f793c62643412283642cc645fc0674e7cccd6e2ca700ce24266",
+      "runtime_atlas_sha256": "a44af115e4bd7b5ae07d0855934d477a219a12759d630f4e3e768625aad0d0d8",
+      "prompt_id": "58f76e05-4e9c-4923-8f66-f176604ef8ba"
+    },
+    {
+      "direction": "S",
+      "clip": "shoot",
+      "pack": "Assets/Characters/Working/Atang/combat-shoot-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "6ed9a2adac69316f2760fb3c1a3c7c1a4a8348866167e671088df2031b14cfc5",
+      "runtime_atlas_sha256": "f9540d13a4b2756554451ff3b35be489a3b66aeadd3e9924dbc0f2366ea5ad41",
+      "prompt_id": "bf715264-5e89-458d-9940-59f46e49ee00"
+    },
+    {
+      "direction": "S",
+      "clip": "reload",
+      "pack": "Assets/Characters/Working/Atang/combat-reload-S-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "110964b3829a7ad77b747d994e8074ba701a7d84501127f541874077080b8155",
+      "runtime_atlas_sha256": "25c300c884bca051b73e5d6603d087a9e3c2085d6baae0a6215eff43946a8082",
+      "prompt_id": "3e8125bd-df8e-4828-ba2e-aba05a9eecf0"
+    },
+    {
+      "direction": "SE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "5710d1f3d1f218f10ba4d70d914c5df56e094ca2c107088ea8e4a4589609a625",
+      "runtime_atlas_sha256": "2cf6a9423e29e95e0bcd8caf5ee7b54f1e941c892ff92b4551c7fe097ce6b994",
+      "prompt_id": "b2a756ae-1967-41b7-9e5f-76d47089a6e6"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "5710d1f3d1f218f10ba4d70d914c5df56e094ca2c107088ea8e4a4589609a625",
+      "runtime_atlas_sha256": "0969d9076c69a4e65600f05f5ab8538aeaff8845be91a9a4fa415495f271fc3f",
+      "prompt_id": "b2a756ae-1967-41b7-9e5f-76d47089a6e6"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "5710d1f3d1f218f10ba4d70d914c5df56e094ca2c107088ea8e4a4589609a625",
+      "runtime_atlas_sha256": "cd4570b420a8e4d8280fffe1f3f7cf11a38b8da5e4e7fab39a54c78dcef42f33",
+      "prompt_id": "b2a756ae-1967-41b7-9e5f-76d47089a6e6"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "5710d1f3d1f218f10ba4d70d914c5df56e094ca2c107088ea8e4a4589609a625",
+      "runtime_atlas_sha256": "3fdbcb0e9d612cec92eb03cd91675c9abca26049a98d12e7039735aabf6c6f64",
+      "prompt_id": "b2a756ae-1967-41b7-9e5f-76d47089a6e6"
+    },
+    {
+      "direction": "SE",
+      "clip": "shoot",
+      "pack": "Assets/Characters/Working/Atang/combat-shoot-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "06a616e7386b05efd4083c4040c09e7f47f1c9e1c930aab944e69191438dd476",
+      "runtime_atlas_sha256": "ee8711745f632f0336c079df2eaf6406669251cc686383267325574202a42783",
+      "prompt_id": "b2fec86c-fb64-4838-8008-e04093a08f49"
+    },
+    {
+      "direction": "SE",
+      "clip": "reload",
+      "pack": "Assets/Characters/Working/Atang/combat-reload-SE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "12a352b8631f7242b21c6170710c6f42b56bdef7963dfe6e3b6c7fedce2db064",
+      "runtime_atlas_sha256": "34358ca94350d517c3f4554f15fd0bcb6c7a0d422c438b3060b28c40d9f48ed0",
+      "prompt_id": "1bbc8f36-b337-476c-a96b-b9152e3a92be"
+    },
+    {
+      "direction": "NE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "63da9e9f0bf35cd880eb12b33bbe6b4a11f99160f14a93f2ca74d187056453b0",
+      "runtime_atlas_sha256": "9e2a5170a5bffc74ecfce893e581ab14c103512a3f76b46a9c4ae02e8f37d0cd",
+      "prompt_id": "2c4f7a5f-3582-4e2d-957a-caa75af8f8dd"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "63da9e9f0bf35cd880eb12b33bbe6b4a11f99160f14a93f2ca74d187056453b0",
+      "runtime_atlas_sha256": "c95cc613ba9050d3e450134a3629661e7c997e5a754b3c6c28f0edb1d5419ae2",
+      "prompt_id": "2c4f7a5f-3582-4e2d-957a-caa75af8f8dd"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "63da9e9f0bf35cd880eb12b33bbe6b4a11f99160f14a93f2ca74d187056453b0",
+      "runtime_atlas_sha256": "df5c1f0733e23e94c4d4fe9e85e28a0b21b310590315f99b1299691ead5ea433",
+      "prompt_id": "2c4f7a5f-3582-4e2d-957a-caa75af8f8dd"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "63da9e9f0bf35cd880eb12b33bbe6b4a11f99160f14a93f2ca74d187056453b0",
+      "runtime_atlas_sha256": "edc926ead5a825b88df753470528e3b6b5bad3cde0a5742233284787b449e23a",
+      "prompt_id": "2c4f7a5f-3582-4e2d-957a-caa75af8f8dd"
+    },
+    {
+      "direction": "NE",
+      "clip": "shoot",
+      "pack": "Assets/Characters/Working/Atang/combat-shoot-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "1187da2004be62f22966f589b76913a913b98fbc788c28dd2bb379a794456e33",
+      "runtime_atlas_sha256": "12b2480988a174c967c82bc4bb8b3dbe964a54165984801c704494290f82eb1d",
+      "prompt_id": "ff8473fb-c6d3-40e1-81f2-c7a224728dc7"
+    },
+    {
+      "direction": "NE",
+      "clip": "reload",
+      "pack": "Assets/Characters/Working/Atang/combat-reload-NE-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "64813664b6c2f1d283a9fab07f443dca6c7a76b6cc9e7f271be96959389dbcf5",
+      "runtime_atlas_sha256": "2bc6e137218eb7f33fb9a7d03958e2aec749b0a42b4d16154d27c8494ed93ef4",
+      "prompt_id": "ea175402-24ea-492a-9e63-f7d18da9c56c"
+    },
+    {
+      "direction": "N",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "384661f5a500fb0fcd9f8f65c2b717a8029a2d44aaac7d169a2104280ef30537",
+      "runtime_atlas_sha256": "6ab82ed63a13dc11054ba19aee21e567ec418886d5ff63b947853c32f2517040",
+      "prompt_id": "2e9ddbb3-6101-4614-b157-49fe5fb7e7bf"
+    },
+    {
+      "direction": "N",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "384661f5a500fb0fcd9f8f65c2b717a8029a2d44aaac7d169a2104280ef30537",
+      "runtime_atlas_sha256": "ee077c4134424437ef4eb084bd0e07bf7da5e2648a72b228255864eda1ee2a55",
+      "prompt_id": "2e9ddbb3-6101-4614-b157-49fe5fb7e7bf"
+    },
+    {
+      "direction": "N",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "384661f5a500fb0fcd9f8f65c2b717a8029a2d44aaac7d169a2104280ef30537",
+      "runtime_atlas_sha256": "e54ddfd4ddbacf147ddbd1f6eff7cde12c7df1d964dba938c93ea4b1a15756b3",
+      "prompt_id": "2e9ddbb3-6101-4614-b157-49fe5fb7e7bf"
+    },
+    {
+      "direction": "N",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Atang/combat-move-N-style-v05/pack-runtime-v05/motion.json",
+      "pack_sha256": "384661f5a500fb0fcd9f8f65c2b717a8029a2d44aaac7d169a2104280ef30537",
+      "runtime_atlas_sha256": "13a7662176c2756cb75599be6ac06f76fa7d88d4754afe25f45ce7241a1b3fe8",
+      "prompt_id": "2e9ddbb3-6101-4614-b157-49fe5fb7e7bf"
+    },
+    {
+      "direction": "N",
+      "clip": "shoot",
+      "pack": "Assets/Characters/Working/Atang/combat-shoot-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "58970bbbac7625301c6ab562edd7ba45848fa4741267add642300fef702ed02d",
+      "runtime_atlas_sha256": "2229d1b580463f4171c0ab0ed5b42569d1199e9cfb1ea922cb2b8ad1b377b532",
+      "prompt_id": "c86efb5e-e74f-4502-8fab-1c257ad2165e"
+    },
+    {
+      "direction": "N",
+      "clip": "reload",
+      "pack": "Assets/Characters/Working/Atang/combat-reload-N-style-v04/pack-runtime-v05/motion.json",
+      "pack_sha256": "26bcccd4d0aee09aef6557d34cd22a2fd05464036ce0c836c847d05ab24af49b",
+      "runtime_atlas_sha256": "8c313c9b8653a0711325f6c4d1247dfec5da75f54f688b963e097ffe7fba71cc",
+      "prompt_id": "c1609156-6063-4d5c-9222-f4a479f8a757"
+    }
+  ]
+}

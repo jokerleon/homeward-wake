@@ -1,0 +1,3887 @@
+{
+  "schema": "return-demo-motion-set/v1",
+  "character": "Guard",
+  "state": "combat",
+  "default_direction": "E",
+  "canvas": [
+    320,
+    224
+  ],
+  "pivot_px": [
+    160.0,
+    192.0
+  ],
+  "pixel_size": 0.011357142857142857,
+  "directions": {
+    "E": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/guard/combat/E-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 14,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5833333333333334,
+          "atlas": "res://assets/demo/characters/guard/combat/E-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 5,
+          "frames": 34,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.4166666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/E-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 52
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 9,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.375,
+          "atlas": "res://assets/demo/characters/guard/combat/E-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        },
+        "attack": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 27,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.125,
+          "atlas": "res://assets/demo/characters/guard/combat/E-attack.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 29
+            }
+          ],
+          "release_time": 0.5416666666666666,
+          "release_frame": 13
+        },
+        "hit": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 20,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.8333333333333334,
+          "atlas": "res://assets/demo/characters/guard/combat/E-hit.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 2
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 3
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 4
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            }
+          ]
+        },
+        "down": {
+          "columns": 8,
+          "rows": 6,
+          "frames": 43,
+          "fps": 24,
+          "loop": false,
+          "duration": 1.7916666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/E-down.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                2240,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                0,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                320,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                640,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                960,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1280,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1600,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1920,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                2240,
+                896,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                0,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                320,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                640,
+                1120,
+                320,
+                224
+              ],
+              "source_frame": 50
+            }
+          ]
+        }
+      }
+    },
+    "S": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/guard/combat/S-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 7,
+          "rows": 1,
+          "frames": 7,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.2916666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/S-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 30,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.25,
+          "atlas": "res://assets/demo/characters/guard/combat/S-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 41
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 13,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5416666666666666,
+          "atlas": "res://assets/demo/characters/guard/combat/S-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "SE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/guard/combat/SE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 19,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.7916666666666666,
+          "atlas": "res://assets/demo/characters/guard/combat/SE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 27,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.125,
+          "atlas": "res://assets/demo/characters/guard/combat/SE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 13,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.5416666666666666,
+          "atlas": "res://assets/demo/characters/guard/combat/SE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 60
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 61
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 62
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "N": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/guard/combat/N-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 3,
+          "frames": 21,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.875,
+          "atlas": "res://assets/demo/characters/guard/combat/N-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 25
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 31,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.2916666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/N-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 51
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 52
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 53
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 54
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 55
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 56
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 10,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.4166666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/N-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 63
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    },
+    "NE": {
+      "clips": {
+        "idle": {
+          "columns": 1,
+          "rows": 1,
+          "frames": 1,
+          "fps": 24,
+          "loop": true,
+          "duration": 0.041666666666666664,
+          "atlas": "res://assets/demo/characters/guard/combat/NE-idle.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 0
+            }
+          ]
+        },
+        "move_start": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 15,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.625,
+          "atlas": "res://assets/demo/characters/guard/combat/NE-move_start.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 5
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 6
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 7
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 8
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 9
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 10
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 11
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 12
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 13
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 14
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 15
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 16
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 17
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 18
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 19
+            }
+          ]
+        },
+        "move_loop": {
+          "columns": 8,
+          "rows": 4,
+          "frames": 31,
+          "fps": 24,
+          "loop": true,
+          "duration": 1.2916666666666667,
+          "atlas": "res://assets/demo/characters/guard/combat/NE-move_loop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 20
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 21
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 22
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 23
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 24
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 25
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 26
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 27
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 28
+            },
+            {
+              "frame": [
+                320,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 29
+            },
+            {
+              "frame": [
+                640,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 30
+            },
+            {
+              "frame": [
+                960,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 31
+            },
+            {
+              "frame": [
+                1280,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 32
+            },
+            {
+              "frame": [
+                1600,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 33
+            },
+            {
+              "frame": [
+                1920,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 34
+            },
+            {
+              "frame": [
+                2240,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 35
+            },
+            {
+              "frame": [
+                0,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 36
+            },
+            {
+              "frame": [
+                320,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 37
+            },
+            {
+              "frame": [
+                640,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 38
+            },
+            {
+              "frame": [
+                960,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 39
+            },
+            {
+              "frame": [
+                1280,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 40
+            },
+            {
+              "frame": [
+                1600,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 41
+            },
+            {
+              "frame": [
+                1920,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 42
+            },
+            {
+              "frame": [
+                2240,
+                448,
+                320,
+                224
+              ],
+              "source_frame": 43
+            },
+            {
+              "frame": [
+                0,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 44
+            },
+            {
+              "frame": [
+                320,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 45
+            },
+            {
+              "frame": [
+                640,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 46
+            },
+            {
+              "frame": [
+                960,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 47
+            },
+            {
+              "frame": [
+                1280,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 48
+            },
+            {
+              "frame": [
+                1600,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 49
+            },
+            {
+              "frame": [
+                1920,
+                672,
+                320,
+                224
+              ],
+              "source_frame": 50
+            }
+          ]
+        },
+        "move_stop": {
+          "columns": 8,
+          "rows": 2,
+          "frames": 9,
+          "fps": 24,
+          "loop": false,
+          "duration": 0.375,
+          "atlas": "res://assets/demo/characters/guard/combat/NE-move_stop.png",
+          "rects": [
+            {
+              "frame": [
+                0,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 64
+            },
+            {
+              "frame": [
+                320,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 65
+            },
+            {
+              "frame": [
+                640,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 66
+            },
+            {
+              "frame": [
+                960,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 67
+            },
+            {
+              "frame": [
+                1280,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 68
+            },
+            {
+              "frame": [
+                1600,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 69
+            },
+            {
+              "frame": [
+                1920,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 70
+            },
+            {
+              "frame": [
+                2240,
+                0,
+                320,
+                224
+              ],
+              "source_frame": 71
+            },
+            {
+              "frame": [
+                0,
+                224,
+                320,
+                224
+              ],
+              "source_frame": 72
+            }
+          ]
+        }
+      }
+    }
+  },
+  "adoption": "internally reviewed demo candidate; user art acceptance not claimed",
+  "mirrors": {
+    "W": "E",
+    "SW": "SE",
+    "NW": "NE"
+  },
+  "mirror_note": "Mirroring reverses handedness. World root and all muzzle pixels mirror together.",
+  "sources": [
+    {
+      "direction": "E",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "560fcacf44ca2b8e646839891589a3276b3d171598e1edb1ecd7fa44f610f3bf",
+      "runtime_atlas_sha256": "51b8fbe71b5520cdd451e2f98cb9a4632f84f1e15ba254f62cffa64026b30c14",
+      "prompt_id": "ddd59e44-2017-4b67-af6b-43a42a40aa4b"
+    },
+    {
+      "direction": "E",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "560fcacf44ca2b8e646839891589a3276b3d171598e1edb1ecd7fa44f610f3bf",
+      "runtime_atlas_sha256": "6294f3a3df0464f2aeb22649d474e852a94041a55b0f42e2215baea2f37095a0",
+      "prompt_id": "ddd59e44-2017-4b67-af6b-43a42a40aa4b"
+    },
+    {
+      "direction": "E",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "560fcacf44ca2b8e646839891589a3276b3d171598e1edb1ecd7fa44f610f3bf",
+      "runtime_atlas_sha256": "1a424018c7496161ac6ffa0656e25d690675c21ecdec8983da5b71fc166c710b",
+      "prompt_id": "ddd59e44-2017-4b67-af6b-43a42a40aa4b"
+    },
+    {
+      "direction": "E",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-E-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "560fcacf44ca2b8e646839891589a3276b3d171598e1edb1ecd7fa44f610f3bf",
+      "runtime_atlas_sha256": "39365206d0a58e8e741e3c4547fad6db628f40eee7ca53f298d6f4a42dbddf8a",
+      "prompt_id": "ddd59e44-2017-4b67-af6b-43a42a40aa4b"
+    },
+    {
+      "direction": "E",
+      "clip": "attack",
+      "pack": "Assets/Characters/Working/Guard/combat-attack-E-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "3d34c1b0e3846fc5c147bccdc00066f6c62ad4053cfa42d8213cf6fc6262189d",
+      "runtime_atlas_sha256": "84bf9b795f566a576fa8f994b2cccdc9fc76d6fe4adee668d01a77b6b5ef2093",
+      "prompt_id": "e02f01ac-1a0a-4490-ba44-12c21c1deba5"
+    },
+    {
+      "direction": "E",
+      "clip": "hit",
+      "pack": "Assets/Characters/Working/Guard/combat-hit-E-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "3a1f179c863f9d235434ab64e82fc335cd56a32d96ee136f2bee3ef66626875a",
+      "runtime_atlas_sha256": "db607c1d0082524f338edb9da90eec0f4181958e436c3a3e3dc125bf545056c4",
+      "prompt_id": "8cb48403-6002-4a9e-8799-ab8490f494d3"
+    },
+    {
+      "direction": "E",
+      "clip": "down",
+      "pack": "Assets/Characters/Working/Guard/combat-down-E-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "8a93971b757510a16016746c4020c5b69e3c845d3f79e2832fc98c0c0a2678ff",
+      "runtime_atlas_sha256": "7f0944d0d9ef71af478ffd11e3907e7e140d3421282611d93c7148700c7453cc",
+      "prompt_id": "8cfc74a4-db8f-4ecc-a878-cd14d6d11ea7"
+    },
+    {
+      "direction": "S",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "52dbdbdeae9049237395887dd1bc4af714ae73d17330b4d67bb6131044a89a20",
+      "runtime_atlas_sha256": "71780d7ac676a1ad558d4bf349e5bc155f278c85395d942d53ffc692c6fca43b",
+      "prompt_id": "5e4ce9e7-1719-4e1c-9ac9-5942eea21949"
+    },
+    {
+      "direction": "S",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "52dbdbdeae9049237395887dd1bc4af714ae73d17330b4d67bb6131044a89a20",
+      "runtime_atlas_sha256": "a44613c837f352a94e19f199fddbcb95c5957d3f46b5dbb8529ae36ea7b0d390",
+      "prompt_id": "5e4ce9e7-1719-4e1c-9ac9-5942eea21949"
+    },
+    {
+      "direction": "S",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "52dbdbdeae9049237395887dd1bc4af714ae73d17330b4d67bb6131044a89a20",
+      "runtime_atlas_sha256": "72b833686755a8035c07db67e2efb642f3a75bbe8f9aae0a0f8cbaaea323c3ac",
+      "prompt_id": "5e4ce9e7-1719-4e1c-9ac9-5942eea21949"
+    },
+    {
+      "direction": "S",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-S-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "52dbdbdeae9049237395887dd1bc4af714ae73d17330b4d67bb6131044a89a20",
+      "runtime_atlas_sha256": "119c80c3e85b82cdebbf90295838e5297b0331b5aa476da15ec939489fdcc3cb",
+      "prompt_id": "5e4ce9e7-1719-4e1c-9ac9-5942eea21949"
+    },
+    {
+      "direction": "SE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "22bc6ae89b36bcd766198b536c69c3ed28d1d4d5c59535b0a48a615f60574be0",
+      "runtime_atlas_sha256": "c87a2fa1ebed643d351e5c0ff60db1c0e08a92361c913a4e279a3e320228bb77",
+      "prompt_id": "9d6b2265-ac91-41d6-af3a-447d3730e329"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "22bc6ae89b36bcd766198b536c69c3ed28d1d4d5c59535b0a48a615f60574be0",
+      "runtime_atlas_sha256": "267c24802beec0de8d57c059ad99c0c99cc150822f235cfe1f3810add09e5f93",
+      "prompt_id": "9d6b2265-ac91-41d6-af3a-447d3730e329"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "22bc6ae89b36bcd766198b536c69c3ed28d1d4d5c59535b0a48a615f60574be0",
+      "runtime_atlas_sha256": "9b4cbdb553dafdf51f1c005406a38bcf2f5fe5ef018b419bfdb94b8775d1c2a9",
+      "prompt_id": "9d6b2265-ac91-41d6-af3a-447d3730e329"
+    },
+    {
+      "direction": "SE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-SE-style-v04/pack-runtime-v06/motion.json",
+      "pack_sha256": "22bc6ae89b36bcd766198b536c69c3ed28d1d4d5c59535b0a48a615f60574be0",
+      "runtime_atlas_sha256": "d7657ef672b68b84ac1ca02094d576e3e255da32958620603fc72c4a9c664759",
+      "prompt_id": "9d6b2265-ac91-41d6-af3a-447d3730e329"
+    },
+    {
+      "direction": "N",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "6c24902cfcaa5d0a5ef47a600ccedff611eba0e2a218cffa9940a114efe2a1e8",
+      "runtime_atlas_sha256": "4357758931362abbc190154f573a5cf594823420faf60a1fa6510d451a258169",
+      "prompt_id": "232625bd-c12b-4219-9db1-8d9ab964fb1b"
+    },
+    {
+      "direction": "N",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "6c24902cfcaa5d0a5ef47a600ccedff611eba0e2a218cffa9940a114efe2a1e8",
+      "runtime_atlas_sha256": "a6f11eff3a87241d6322e54627626f18c376727392ee8ab339730ca7786698d8",
+      "prompt_id": "232625bd-c12b-4219-9db1-8d9ab964fb1b"
+    },
+    {
+      "direction": "N",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "6c24902cfcaa5d0a5ef47a600ccedff611eba0e2a218cffa9940a114efe2a1e8",
+      "runtime_atlas_sha256": "3f8f1cfb32f30d78ccac35bfc1b094d904814c18c52a3bf3efe98009fc5b3206",
+      "prompt_id": "232625bd-c12b-4219-9db1-8d9ab964fb1b"
+    },
+    {
+      "direction": "N",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-N-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "6c24902cfcaa5d0a5ef47a600ccedff611eba0e2a218cffa9940a114efe2a1e8",
+      "runtime_atlas_sha256": "ebac17ecd2bd53fae229dcd833719fea60ad5e2a1e9f963877df07e9a1704f38",
+      "prompt_id": "232625bd-c12b-4219-9db1-8d9ab964fb1b"
+    },
+    {
+      "direction": "NE",
+      "clip": "idle",
+      "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "623193aedfe0f44c2558be72fde42c9a09748cd9696e193493fef6ad1168cd04",
+      "runtime_atlas_sha256": "811dd3258d747555587f36dc3b1deba30a7c65fd8c655853a65bd3d36bf1aa23",
+      "prompt_id": "2c9ee0b2-90cb-401f-9b53-ba74083af868"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_start",
+      "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "623193aedfe0f44c2558be72fde42c9a09748cd9696e193493fef6ad1168cd04",
+      "runtime_atlas_sha256": "05a0312248f38c484af80dad4b02c9c949bb4af7b6f71613b073505d914737ec",
+      "prompt_id": "2c9ee0b2-90cb-401f-9b53-ba74083af868"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_loop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "623193aedfe0f44c2558be72fde42c9a09748cd9696e193493fef6ad1168cd04",
+      "runtime_atlas_sha256": "0bfb8fc77d44e2a87022354cf57dd95dbef665f0621138fe9ec97f848bffc67f",
+      "prompt_id": "2c9ee0b2-90cb-401f-9b53-ba74083af868"
+    },
+    {
+      "direction": "NE",
+      "clip": "move_stop",
+      "pack": "Assets/Characters/Working/Guard/combat-move-NE-style-v05/pack-runtime-v06/motion.json",
+      "pack_sha256": "623193aedfe0f44c2558be72fde42c9a09748cd9696e193493fef6ad1168cd04",
+      "runtime_atlas_sha256": "e08fcd65fb84d33770982a912e7fc8efd5d338965b2f5770c6fb51db013ef0bc",
+      "prompt_id": "2c9ee0b2-90cb-401f-9b53-ba74083af868"
+    }
+  ]
+}

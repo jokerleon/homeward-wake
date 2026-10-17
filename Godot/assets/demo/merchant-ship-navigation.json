@@ -1,0 +1,17 @@
+{
+  "schema": "ship-navigation-profile/v1",
+  "ship_type": "merchant-16m",
+  "visual_source": "res://assets/demo/merchant-ship-boarding-v2.glb",
+  "surface_source": "res://assets/demo/ship-deck-surface.json",
+  "actor_radius": 0.32,
+  "spacing": 0.15,
+  "boundary_xz": [[-1.25,-4.7],[-1.7,-3.8],[-1.95,-2.8],[-1.95,3.0],[-1.55,4.35],[1.55,4.35],[1.95,3.0],[1.95,-2.8],[1.7,-3.8],[1.25,-4.7]],
+  "deployment_xz": [[-1.55,1.65],[-1.55,3.65],[1.55,3.65],[1.55,1.65]],
+  "obstacles": [
+    {"kind":"box","center":[0.0,0.12],"size":[1.55,1.8],"height":2.02,"name":"closed-hatch-and-mast-base"},
+    {"kind":"circle","center":[0.0,0.3487],"radius":0.17,"height":12.7,"name":"main-mast"},
+    {"kind":"circle","center":[0.0,-4.014],"radius":0.15,"height":10.5,"name":"fore-mast"}
+  ],
+  "surface_outlier_limit": 0.40,
+  "note": "Invisible navigation data for the retained painted ship. Original rendered hull is unchanged. Generated source height samples supply the deck surface; missing samples are blocked rather than replaced by a flat floor."
+}

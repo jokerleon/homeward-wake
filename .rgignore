@@ -1,0 +1,5 @@
+# Historical job inputs/receipts are read explicitly when needed, not as current instructions.
+/Local/
+/Assets/Characters/Trials/
+/Assets/Characters/Recipes/
+/docs/character-records/
